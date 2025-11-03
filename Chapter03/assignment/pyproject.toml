@@ -1,0 +1,9 @@
+[project]
+name = "assignment"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=2.13.0.2",
+    "mcp[cli]>=1.20.0",
+    "uvicorn>=0.38.0",
+]

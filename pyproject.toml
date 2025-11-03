@@ -1,0 +1,14 @@
+[project]
+name = "learn-model-context-protocol-with-python"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.13.0.2",
+    "mcp[cli]>=1.20.0",
+    "uvicorn[standard]>=0.38.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "Chapter03/assignment",
+]
